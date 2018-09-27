@@ -1,0 +1,24 @@
+function setup() {
+  createCanvas(600,500);
+  //put setup code here
+}
+
+
+function draw() {
+	line(0,height/3, width/2, height/3); 
+	line(width/2, 0, width/2, 500);
+	if(mouseX == 500) {
+		background(0);
+		fill(0);
+		line(500,0,500,500);
+		fill(255,0,0);
+		ellipse(200,200,300,300);
+		fill(255,255,0);
+		ellipse(150,170,20,20);
+		ellipse(250,170,20,20);
+		stroke(224);
+		line(150,250,250,280);
+	  // put drawing code here
+
+	}
+}
